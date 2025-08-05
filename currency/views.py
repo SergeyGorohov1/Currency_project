@@ -5,7 +5,7 @@ from currency.serializers import CurrencySerializers
 
 
 class CurrencyListAPIView(ListAPIView):
-    queryset = Currency.objects.all()
+    queryset = Currency.objects.all().order_by('name')
     serializer_class = CurrencySerializers
 
 
