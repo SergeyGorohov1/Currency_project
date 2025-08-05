@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from rest_framework.generics import ListAPIView, RetrieveAPIView
+
 from currency.models import Currency
 from currency.paginators import CurrencyPagination
 from currency.serializers import CurrencySerializers

@@ -1,4 +1,5 @@
 from django.urls import path
+
 from currency.views import CurrencyListAPIView, CurrencyRetrieveAPIView
 
 urlpatterns = [

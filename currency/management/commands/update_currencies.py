@@ -1,5 +1,6 @@
-from django.core.management.base import BaseCommand
 import requests
+from django.core.management.base import BaseCommand
+
 from currency.models import Currency
 
 
